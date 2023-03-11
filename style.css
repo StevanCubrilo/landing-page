@@ -10,8 +10,8 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: #1f2937;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 ul {
@@ -32,4 +32,47 @@ a {
 .logo {
     font-size: 24px;
     color: #f9faf8;
+}
+
+.first_part {
+    display: flex;
+    background-color: #1f2937;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+.left_part {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 100px;
+}
+
+.bigger_text {
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+    margin-bottom: 0;
+}
+
+.smaller_text {
+    font-size: 18px;
+    color: #f9faf8;
+}
+
+.click {
+    border: none;
+    border-radius: 8px;
+    color: #f9faf8;
+    background: #3882f6;
+    width: 100px;
+    padding: 8px 16px;
+}
+
+img {
+    
+    height: 220px;
+    width: 400px;
+    padding-right: 100px;
+    padding-top: 50px;
 }
